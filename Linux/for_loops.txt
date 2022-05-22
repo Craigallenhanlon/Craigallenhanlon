@@ -1,0 +1,14 @@
+#!/bin/bash
+
+output='craigh.txt'
+
+files=(
+  'shadow'
+  'passwd'
+)
+
+
+for files in ${files[@]};
+do 
+  ls -l $file >> $output
+done

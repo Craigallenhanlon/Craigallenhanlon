@@ -1,0 +1,14 @@
+#!/bin/bash
+
+output=~/scriptsZ/sys_info.txt
+
+
+if [! -d$ ~/scriptsZ ]
+then 
+mkdir ~/scriptsz
+fi
+
+if [-f ~/sciptsZ/sys_info.txt]
+then
+ rm ~/scriptsZ/sys_info.txt
+fi
