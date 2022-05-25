@@ -90,5 +90,6 @@ _ Answer the following questions to fill in the blanks:_
 - _Which file do you update to make Ansible run the playbook on a specific machine? [ansible.cfg] How do I specify which machine to install the ELK server on versus which to install Filebeat on?_[The IP address]
 - _Which URL do you navigate to in order to check that the ELK server is running? Kibana
 _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._[ansible-playbook /etc/ansible/roles/elk_install.yml]
+
 ![Kibana](![Kibana2 png](https://user-images.githubusercontent.com/105895191/170375269-714b2d02-79b7-43af-8fcd-91cba843e69f.png)
 )
