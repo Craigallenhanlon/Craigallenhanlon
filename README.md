@@ -30,16 +30,11 @@ The configuration details of each machine may be found below.
 _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
 
 | Name     | Function | IP Address | Operating System |
-
 |----------|----------|------------|------------------|
-
 | Jump Box | Gateway  | 10.2.0.4   | Linux            |
-
 | Web1     | Webserver| 10.2.0.5   | Linux                  
-
 | Web2     | Webserver| 10.2.0.6   | Linux            |
-
-| ELK      | Elastic Stack  | 10.0.0.4   | Linux            |
+| ELK      | Elastic Stack  | 10.0.0.4   | Linux      |
              
 ### Access Policies
 The machines on the internal network are not exposed to the public Internet.
@@ -50,14 +45,11 @@ Machines within the network can only be accessed by [Jumpbox].
 A summary of the access policies in place can be found in the table below.
 
 | Name     | Publicly Accessible | Allowed IP Addresses |
-
 |----------|---------------------|----------------------|
-
 | Jump Box | Yes-SSH-22          | 24.2.74.127          |
-
 | Web1,2   | No                  | 10.2.0.5/10.2.0.6    |
-
 | ELK      | Yes-5601-Kibana     |  *                   |
+
 ### Elk Configuration
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
 - What is the main advantage of automating configuration with Ansible? It allows for full automation of a specific server and reduces configuration errors.
