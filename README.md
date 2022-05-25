@@ -19,12 +19,13 @@ Integrating an ELK server allows users to easily monitor the vulnerable VMs for 
 -  What does Metricbeat record? Metricbeat is used only for gathering metrics and system resources usage for display in Elasticsearch.
 The configuration details of each machine may be found below.
 _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
-| Name     | Function     | IP Address | Operating System |
-|----------|----------    |------------|------------------|
-| Jump Box | Gateway      | 10.2.0.4   | Linux            |
-| Web1     | Webserver    | 10.2.0.5   | Linux                  
-| Web2     | Webserver    | 10.2.0.6   | Linux            |
-| ELK      | Elastic Stack| 10.0.0.4   | Linux            |
+| Name     | Function | IP Address | Operating System |
+|----------|----------|------------|------------------|
+| Jump Box | Gateway  | 10.2.0.4   | Linux            |
+| Web1     | Webserver| 10.2.0.5   | Linux                  
+| Web2     | Webserver| 10.2.0.6   | Linux            |
+| ELK      | Elastic  | 10.0.0.4   | Linux            |
+             Stack
 ### Access Policies
 The machines on the internal network are not exposed to the public Internet.
 Only the _____ machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
