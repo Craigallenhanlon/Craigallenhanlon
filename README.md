@@ -2,6 +2,9 @@
 
 ![Cloud_Network_Diagram](https://user-images.githubusercontent.com/105895191/170169905-41e083ee-379d-4fa3-abe2-c5ad9c688850.png)
 
+![Azure_ELK_VM](https://user-images.githubusercontent.com/105895191/170377598-99d331de-eae4-4c0a-8673-fa28c62ff749.png)
+
+![ELK png](https://user-images.githubusercontent.com/105895191/170377779-635de1a5-3555-4d09-bfaa-4960e02b366a.png)
 
 
 
@@ -93,3 +96,6 @@ _As a **Bonus**, provide the specific commands the user will need to run to down
 
 ![Kibana](![Kibana2 png](https://user-images.githubusercontent.com/105895191/170375269-714b2d02-79b7-43af-8fcd-91cba843e69f.png)
 )
+
+![Kibana1](https://user-images.githubusercontent.com/105895191/170377914-bc12098d-1959-492e-9c9e-fdfdbce3f100.png)
+
